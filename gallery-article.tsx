@@ -26,56 +26,56 @@ const slides = [
     title: "Letting Dogs Bark Continuously",
     content:
       "While dogs naturally bark, allowing constant barking shows poor pet ownership. Neighbors shouldn't have to endure hours of non-stop barking, especially during early morning or late evening hours. Responsible pet owners train their dogs and address excessive barking through proper exercise and attention.",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/images/dogbarking.png?height=300&width=400",
   },
   {
     id: 4,
     title: "Not Picking Up After Their Pets",
     content:
       "Leaving pet waste on sidewalks, lawns, or common areas is both unsanitary and disrespectful. This behavior creates health hazards and unpleasant odors that affect the entire neighborhood. Carrying waste bags and cleaning up after pets is a basic responsibility of pet ownership.",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/images/petspee.png?height=300&width=400",
   },
   {
     id: 5,
     title: "Blocking Driveways and Walkways",
     content:
       "Parking across driveways or leaving items that block walkways creates accessibility issues and safety hazards. This inconsiderate behavior can prevent emergency vehicle access and makes it difficult for residents to enter or exit their properties. Clear pathways are essential for neighborhood safety.",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/images/blockways.png?height=300&width=400",
   },
   {
     id: 6,
     title: "Throwing Loud Parties Without Notice",
     content:
       "Surprise parties that go late into the night catch neighbors off guard and disrupt their plans. A simple heads-up allows neighbors to prepare for noise or make alternative arrangements. Considerate party hosts communicate with neighbors and respect reasonable noise limits and time boundaries.",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/images/loudnoise.png?height=300&width=400",
   },
   {
     id: 7,
     title: "Not Maintaining Their Property",
     content:
       "Overgrown lawns, peeling paint, and accumulated junk affect the entire neighborhood's appearance and property values. While everyone has different standards, basic maintenance shows respect for the community. Neglected properties can attract pests and create safety hazards for everyone nearby.",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/images/untidy.jpg?height=300&width=400",
   },
   {
     id: 8,
     title: "Excessive Outdoor Lighting",
     content:
       "Bright security lights that shine directly into neighbors' windows disrupt sleep and privacy. While safety lighting is important, considerate neighbors use motion sensors and directional fixtures. Excessive lighting can feel invasive and make it difficult for neighbors to enjoy their own outdoor spaces.",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/images/toolight.png?height=300&width=400",
   },
   {
     id: 9,
     title: "Smoking Near Shared Spaces",
     content:
       "Cigarette smoke drifts into neighboring properties through windows and ventilation systems, affecting air quality and health. Smoking near property lines, balconies, or common areas forces neighbors to breathe secondhand smoke. Designated smoking areas away from shared spaces show consideration for others' health preferences.",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/images/smoking.png?height=300&width=400",
   },
   {
     id: 10,
     title: "Being Confrontational About Minor Issues",
     content:
       "Aggressive responses to polite requests create hostile neighborhood environments. Minor issues like occasional noise or parking mistakes can be resolved through friendly communication. Neighbors who immediately escalate situations or respond with hostility make the entire community uncomfortable and stressed.",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/images/confronting.png?height=300&width=400",
   },
 ]
 
@@ -110,7 +110,7 @@ export default function Component() {
               src={slides[currentSlide].image || "/placeholder.svg"}
               alt={slides[currentSlide].title}
               width={800}
-              height={400}
+              height={550}
               className="w-full h-64 object-cover rounded-t-lg"
             />
             <div className="absolute top-4 right-4 bg-black/70 text-white px-3 py-1 rounded-full text-sm">
