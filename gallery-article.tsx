@@ -110,7 +110,7 @@ export default function Component() {
               src={slides[currentSlide].image || "/placeholder.svg"}
               alt={slides[currentSlide].title}
               width={800}
-              height={550}
+              height={650}
               className="w-full h-64 object-cover rounded-t-lg"
             />
             <div className="absolute top-4 right-4 bg-black/70 text-white px-3 py-1 rounded-full text-sm">
