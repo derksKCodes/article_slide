@@ -109,7 +109,7 @@ export default function Component() {
             <Image
               src={slides[currentSlide].image || "/placeholder.svg"}
               alt={slides[currentSlide].title}
-              width={800}
+              width={500}
               height={650}
               className="w-full h-64 object-cover rounded-t-lg"
             />
