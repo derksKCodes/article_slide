@@ -12,14 +12,14 @@ const slides = [
     title: "Loud Music at All Hours",
     content:
       "Nothing ruins a peaceful evening like bass-heavy music thumping through your walls at midnight. Whether it's a weeknight or weekend, considerate neighbors understand that sound travels. Excessive noise shows a lack of respect for shared living spaces and can seriously impact sleep quality and daily routines.",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/images/noise.jpg?height=300&width=400",
   },
   {
     id: 2,
     title: "Parking in Your Designated Spot",
     content:
       "Coming home to find someone else's car in your assigned parking space is incredibly frustrating. This inconsiderate behavior forces you to park blocks away or pay for alternative parking. It's a clear violation of property boundaries that can escalate neighborhood tensions quickly.",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/images/parking.png?height=300&width=400",
   },
   {
     id: 3,
